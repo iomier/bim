@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@theme-ui/presets": "^0.3.5",
+    "axios": "^0.21.1",
     "next": "10.0.8",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-modal": "^3.12.1",
+    "theme-ui": "^0.3.5",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/theme-ui": "^0.3.7",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
   }
 }

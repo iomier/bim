@@ -36,7 +36,13 @@ export default function Home() {
           <InputWithError
             name={"name"}
             placeholder={"نام"}
-            register={register({ required: "این فیلد اجباری است." })}
+            register={register({
+              required: "این فیلد اجباری است.",
+              pattern: {
+                value: /^([آ-ی])+$/u,
+                message: "از کاراکترهای فارسی استفاده کنید.",
+              },
+            })}
             errors={errors}
             css={`
               flex: 1;
@@ -46,7 +52,13 @@ export default function Home() {
           <InputWithError
             name={"lastName"}
             placeholder={"نام‌خانوادگی"}
-            register={register({ required: "این فیلد اجباری است." })}
+            register={register({
+              required: "این فیلد اجباری است.",
+              pattern: {
+                value: /^([آ-ی])+$/u,
+                message: "از کاراکترهای فارسی استفاده کنید.",
+              },
+            })}
             errors={errors}
             css={`
               flex: 1;

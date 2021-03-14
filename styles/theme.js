@@ -44,7 +44,7 @@ const theme = {
   },
   colors: {
     ...base.colors,
-    text: "#5390d9",
+    text: "#313131",
     background: "#ffffff",
     primary: "#07c",
     secondary: "#30c",
